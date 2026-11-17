@@ -5,7 +5,7 @@ export const agency = {
   description:
     "We design and develop modern websites that help businesses establish their online presence, communicate their value and generate meaningful enquiries.",
   email: "hello@youragency.co.uk",
-  websiteUrl: "https://rohit-0409.github.io/agencyV1/",
+  websiteUrl: "https://rohit-0409.github.io/outlinedigital/",
   linkedInUrl: "https://www.linkedin.com/company/your-agency",
   instagramUrl: "",
   responseTime: "Within two working days",

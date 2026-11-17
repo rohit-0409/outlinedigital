@@ -11,7 +11,7 @@ pnpm dev
 
 ## GitHub Pages deployment
 
-The workflow in `.github/workflows/deploy.yml` builds a static export and deploys it to GitHub Pages whenever `main` is updated. The project base path is `/agencyV1`; the public site URL is <https://rohit-0409.github.io/agencyV1/>.
+The workflow in `.github/workflows/deploy.yml` builds a static export and deploys it to GitHub Pages whenever `main` is updated. The project base path is `/outlinedigital`; the public site URL is <https://rohit-0409.github.io/outlinedigital/>.
 
 ## Agency configuration
 
