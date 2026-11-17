@@ -15,7 +15,7 @@ The workflow in `.github/workflows/deploy.yml` builds a static export and deploy
 
 ## Agency configuration
 
-Update the studio name, contact details, social links, project list and services in `src/config/agency.ts`. The current agency name, email and LinkedIn URL are example values. The contact form remains disconnected until `NEXT_PUBLIC_CONTACT_ENDPOINT` is configured, and it clearly tells visitors to email instead. The privacy notice and terms page are still drafts and should be reviewed for the actual business before they are relied on.
+Update the contact details, social links, project list and services in `src/config/agency.ts`. The email and LinkedIn URL are example values. The contact form remains disconnected until `NEXT_PUBLIC_CONTACT_ENDPOINT` is configured, and it clearly tells visitors to email instead. The privacy notice and terms page are still drafts and should be reviewed for the actual business before they are relied on.
 
 ## Build
 

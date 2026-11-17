@@ -9,7 +9,7 @@ export function SiteFooter() {
         <div className="footer-main">
           <div className="footer-brand-block">
               <a className="wordmark footer-wordmark" href={sitePath("/")} aria-label={agency.name + " home"}>
-              <span className="wordmark-icon">N</span><span>{agency.shortName}<span className="wordmark-dot">.</span></span>
+              <span className="wordmark-icon">O</span><span>{agency.shortName}<span className="wordmark-dot">.</span></span>
             </a>
             <p>Thoughtful websites and digital solutions for ambitious businesses.</p>
             <a className="footer-email" href={"mailto:" + agency.email}>{agency.email}<ArrowUpRight size={14} /></a>

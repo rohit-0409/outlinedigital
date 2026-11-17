@@ -30,7 +30,7 @@ export function SiteNavigation() {
     <header className={cn("site-nav", scrolled && "is-scrolled", menuOpen && "menu-open")}>
       <div className="nav-inner page-shell">
         <a className="wordmark" href={sitePath("/")} onClick={() => setMenuOpen(false)} aria-label={agency.name + " home"}>
-          <span className="wordmark-icon">N</span>
+          <span className="wordmark-icon">O</span>
           <span>{agency.shortName}<span className="wordmark-dot">.</span></span>
         </a>
         <nav className="desktop-nav" aria-label="Main navigation">

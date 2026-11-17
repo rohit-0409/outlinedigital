@@ -1,6 +1,6 @@
 export const agency = {
-  name: "Northline Studio",
-  shortName: "Northline",
+  name: "Outline.",
+  shortName: "Outline",
   tagline: "Thoughtful websites for ambitious businesses.",
   description:
     "We design and develop modern websites that help businesses establish their online presence, communicate their value and generate meaningful enquiries.",
