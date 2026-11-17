@@ -20,9 +20,9 @@ export default function PrivacyPage() {
           <h2>About this site</h2>
           <p>{agency.name} is an independent digital studio. This website template does not add analytics or advertising tools. The hosting provider may process technical data as part of serving the site; confirm the provider’s details and practices before launch.</p>
           <h2>Project enquiries</h2>
-          <p>The enquiry form is not connected in this starter. It does not send a submission until an endpoint is configured. Once connected, form details are sent to the endpoint you choose. Update this notice to identify that provider, explain how enquiry data is used and retained, and describe the choices available to people who contact you.</p>
+          <p>If you submit a project enquiry, the name, email address, company, optional website, project type, budget and message you provide are sent to FormSubmit and forwarded to Outline at <a href={"mailto:" + agency.email}>{agency.email}</a>. FormSubmit states that it retains submissions for 30 days. The site itself does not store enquiry submissions. Please avoid including sensitive information that is not needed to discuss your project.</p>
           <h2>Contact</h2>
-          <p>For privacy questions, contact <a href={"mailto:" + agency.email}>{agency.email}</a>. Replace this placeholder address and review the complete notice against the services and processes used by your business.</p>
+          <p>For privacy questions, contact <a href={"mailto:" + agency.email}>{agency.email}</a>. Review the complete notice against the services and processes used by your business.</p>
         </div>
       </main>
       <SiteFooter />

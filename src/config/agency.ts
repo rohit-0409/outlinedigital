@@ -1,3 +1,5 @@
+const defaultContactEndpoint = "https://formsubmit.co/ajax/0hellooutlinedigital@gmail.com";
+
 export const agency = {
   name: "Outline.",
   shortName: "Outline",
@@ -10,9 +12,9 @@ export const agency = {
   instagramUrl: "",
   responseTime: "Within two working days",
   primaryCta: "Start a project",
-  contactEndpoint: process.env.NEXT_PUBLIC_CONTACT_ENDPOINT ?? "",
+  contactEndpoint: process.env.NEXT_PUBLIC_CONTACT_ENDPOINT?.trim() || defaultContactEndpoint,
   formIntegrationNote:
-    "Connect a form endpoint with NEXT_PUBLIC_CONTACT_ENDPOINT before accepting enquiries.",
+    "Form submissions are delivered through FormSubmit. Confirm the activation email it sends on first use.",
 };
 
 export const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";

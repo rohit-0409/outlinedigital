@@ -15,7 +15,7 @@ The workflow in `.github/workflows/deploy.yml` builds a static export and deploy
 
 ## Agency configuration
 
-Update the contact details, social links, project list and services in `src/config/agency.ts`. The LinkedIn URL is still an example value. The contact form remains disconnected until `NEXT_PUBLIC_CONTACT_ENDPOINT` is configured, and it clearly tells visitors to email instead. The privacy notice and terms page are still drafts and should be reviewed for the actual business before they are relied on.
+Update the contact details, social links, project list and services in `src/config/agency.ts`. The LinkedIn URL is still an example value. The enquiry form sends submissions through FormSubmit to the configured agency email. On first use, FormSubmit sends an activation email that must be confirmed. `NEXT_PUBLIC_CONTACT_ENDPOINT` can override the default endpoint. The privacy notice and terms page are still drafts and should be reviewed for the actual business before they are relied on.
 
 ## Build
 

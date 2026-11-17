@@ -72,9 +72,14 @@ export function ContactForm() {
       const response = await fetch(agency.contactEndpoint, {
         method: "POST",
         headers: { "Content-Type": "application/json", Accept: "application/json" },
-        body: JSON.stringify(values),
+        body: JSON.stringify({
+          ...values,
+          _subject: "New website enquiry — Outline.",
+          _replyto: values.email,
+        }),
       });
-      if (!response.ok) throw new Error("The enquiry could not be submitted.");
+      const result = await response.json() as { success?: boolean; message?: string };
+      if (!response.ok || result.success === false) throw new Error(result.message ?? "The enquiry could not be submitted.");
       form.reset();
       setStatus("success");
     } catch {
