@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: rohit-0409.github.io
+Sitemap: https://rohit-0409.github.io/outlinedigital/sitemap.xml
