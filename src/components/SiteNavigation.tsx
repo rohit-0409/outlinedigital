@@ -3,6 +3,7 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { ArrowUpRight, Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
+import { BrandMark } from "@/components/BrandMark";
 import { agency, navigation, sitePath } from "@/config/agency";
 import { cn } from "@/lib/utils";
 
@@ -30,7 +31,7 @@ export function SiteNavigation() {
     <header className={cn("site-nav", scrolled && "is-scrolled", menuOpen && "menu-open")}>
       <div className="nav-inner page-shell">
         <a className="wordmark" href={sitePath("/")} onClick={() => setMenuOpen(false)} aria-label={agency.name + " home"}>
-          <span className="wordmark-icon">O</span>
+          <BrandMark />
           <span>{agency.shortName}<span className="wordmark-dot">.</span></span>
         </a>
         <nav className="desktop-nav" aria-label="Main navigation">
