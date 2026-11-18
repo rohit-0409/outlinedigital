@@ -10,7 +10,7 @@ export const agency = {
   websiteUrl: "https://rohit-0409.github.io/outlinedigital/",
   linkedInUrl: "https://www.linkedin.com/company/your-agency",
   instagramUrl: "",
-  responseTime: "Within two working days",
+  responseTime: "Within three hours",
   primaryCta: "Start a project",
   contactEndpoint: process.env.NEXT_PUBLIC_CONTACT_ENDPOINT?.trim() || defaultContactEndpoint,
   formIntegrationNote:
