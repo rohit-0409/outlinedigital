@@ -30,8 +30,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .site-nav.is-scrolled, .site-nav.menu-open { background: rgba(11, 11, 13, .9); border-color: var(--line-soft); backdrop-filter: blur(18px); }
 .nav-inner { min-height: 82px; display: flex; align-items: center; justify-content: space-between; gap: 32px; }
 .wordmark { display: inline-flex; align-items: center; gap: 10px; flex-shrink: 0; font-size: 16px; font-weight: 650; letter-spacing: -.045em; }
-.wordmark-icon, .about-mark { display: grid; place-items: center; width: 30px; height: 30px; background: var(--accent); color: #10110c; font-size: 15px; font-weight: 800; letter-spacing: -.06em; }
-.wordmark-icon svg { display: block; width: 19px; height: 19px; }
+.wordmark-icon, .about-mark { display: block; width: 30px; height: 30px; flex-shrink: 0; border-radius: 5px; object-fit: cover; }
 .wordmark-dot { color: var(--accent); }
 .desktop-nav { display: flex; align-items: center; gap: clamp(24px, 4vw, 48px); margin-left: auto; margin-right: 20px; }
 .desktop-nav a { color: #b5b4ba; font-size: 13px; transition: color .2s ease; }
@@ -209,7 +208,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .about-copy > p { margin: 0 0 18px; color: #9e9da4; font-size: 13px; line-height: 1.85; }
 .about-copy > p.about-lead { margin-bottom: 20px; color: #e4e3e3; font-size: 19px; line-height: 1.55; letter-spacing: -.03em; }
 .about-signoff { display: flex; align-items: center; gap: 11px; margin-top: 33px; padding-top: 20px; border-top: 1px solid var(--line-soft); color: #dedde0; font-size: 11px; }
-.about-mark { width: 28px; height: 28px; font-size: 13px; }
+.about-mark { width: 28px; height: 28px; border-radius: 4px; }
 .about-signoff > span:nth-child(2) { display: grid; gap: 2px; }
 .about-signoff small { color: #77767d; font-size: 9px; }
 .about-signoff > svg { margin-left: auto; color: var(--accent); }
