@@ -4,6 +4,8 @@ import { SiteNavigation } from "@/components/SiteNavigation";
 import { agency, sitePath } from "@/config/agency";
 import "./globals.css";
 
+const socialCardUrl = new URL("images/outline-social-card.jpg", agency.websiteUrl).toString();
+
 export const metadata: Metadata = {
   metadataBase: new URL(agency.websiteUrl),
   title: {
@@ -20,7 +22,7 @@ export const metadata: Metadata = {
     siteName: agency.name,
     title: agency.name + " — Digital design & development",
     description: agency.description,
-    images: [{ url: sitePath("/images/outline-social-card.jpg"), width: 1200, height: 630, alt: "Outline. digital studio wordmark on a charcoal background" }],
+    images: [{ url: socialCardUrl, width: 1200, height: 630, alt: "Outline. digital studio wordmark on a charcoal background" }],
   },
   robots: { index: true, follow: true },
 };
