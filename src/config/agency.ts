@@ -8,7 +8,7 @@ export const agency = {
     "We design and develop modern websites that help businesses establish their online presence, communicate their value and generate meaningful enquiries.",
   email: "0hellooutlinedigital@gmail.com",
   websiteUrl: "https://rohit-0409.github.io/outlinedigital/",
-  linkedInUrl: "https://www.linkedin.com/company/your-agency",
+  linkedInUrl: "https://www.linkedin.com/company/hello-outline-digital/",
   instagramUrl: "",
   responseTime: "Within three hours",
   primaryCta: "Start a project",
